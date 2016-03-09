@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		659F78801C908F61008F0DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F787F1C908F61008F0DD5 /* AppDelegate.swift */; };
-		659F78821C908F61008F0DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78811C908F61008F0DD5 /* ViewController.swift */; };
+		659F78821C908F61008F0DD5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78811C908F61008F0DD5 /* HomeViewController.swift */; };
 		659F78851C908F61008F0DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659F78831C908F61008F0DD5 /* Main.storyboard */; };
 		659F78871C908F61008F0DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659F78861C908F61008F0DD5 /* Assets.xcassets */; };
 		659F788A1C908F61008F0DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659F78881C908F61008F0DD5 /* LaunchScreen.storyboard */; };
 		659F78951C908F61008F0DD5 /* UINavigationControllerOrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78941C908F61008F0DD5 /* UINavigationControllerOrientationTests.swift */; };
 		659F78A01C908F61008F0DD5 /* UINavigationControllerOrientationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F789F1C908F61008F0DD5 /* UINavigationControllerOrientationUITests.swift */; };
+		659F78AE1C90930E008F0DD5 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78AD1C90930E008F0DD5 /* PortraitViewController.swift */; };
+		659F78B01C909323008F0DD5 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78AF1C909323008F0DD5 /* LandscapeViewController.swift */; };
+		659F78B31C909386008F0DD5 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F78B21C909386008F0DD5 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		659F787C1C908F61008F0DD5 /* UINavigationControllerOrientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationControllerOrientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659F787F1C908F61008F0DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		659F78811C908F61008F0DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		659F78811C908F61008F0DD5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		659F78841C908F61008F0DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		659F78861C908F61008F0DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659F78891C908F61008F0DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		659F789B1C908F61008F0DD5 /* UINavigationControllerOrientationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerOrientationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659F789F1C908F61008F0DD5 /* UINavigationControllerOrientationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerOrientationUITests.swift; sourceTree = "<group>"; };
 		659F78A11C908F61008F0DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659F78AD1C90930E008F0DD5 /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
+		659F78AF1C909323008F0DD5 /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
+		659F78B21C909386008F0DD5 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,8 @@
 		659F787E1C908F61008F0DD5 /* UINavigationControllerOrientation */ = {
 			isa = PBXGroup;
 			children = (
+				659F78B11C909334008F0DD5 /* Controllers */,
 				659F787F1C908F61008F0DD5 /* AppDelegate.swift */,
-				659F78811C908F61008F0DD5 /* ViewController.swift */,
 				659F78831C908F61008F0DD5 /* Main.storyboard */,
 				659F78861C908F61008F0DD5 /* Assets.xcassets */,
 				659F78881C908F61008F0DD5 /* LaunchScreen.storyboard */,
@@ -123,6 +129,17 @@
 				659F78A11C908F61008F0DD5 /* Info.plist */,
 			);
 			path = UINavigationControllerOrientationUITests;
+			sourceTree = "<group>";
+		};
+		659F78B11C909334008F0DD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				659F78811C908F61008F0DD5 /* HomeViewController.swift */,
+				659F78AD1C90930E008F0DD5 /* PortraitViewController.swift */,
+				659F78AF1C909323008F0DD5 /* LandscapeViewController.swift */,
+				659F78B21C909386008F0DD5 /* NavigationController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659F78821C908F61008F0DD5 /* ViewController.swift in Sources */,
+				659F78B31C909386008F0DD5 /* NavigationController.swift in Sources */,
+				659F78821C908F61008F0DD5 /* HomeViewController.swift in Sources */,
+				659F78AE1C90930E008F0DD5 /* PortraitViewController.swift in Sources */,
+				659F78B01C909323008F0DD5 /* LandscapeViewController.swift in Sources */,
 				659F78801C908F61008F0DD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
